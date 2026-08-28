@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="valle_verde">#FF3F8F4F</color>
+    <color name="valle_verde_oscuro">#FF2A6136</color>
+    <color name="valle_crema">#FFFDF6E7</color>
+    <color name="valle_naranja">#FFE8823A</color>
+    <color name="valle_marron">#FF7A4B2A</color>
+</resources>
