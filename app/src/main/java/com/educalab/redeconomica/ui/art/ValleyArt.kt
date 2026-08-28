@@ -1,6 +1,7 @@
 package com.educalab.redeconomica.ui.art
 
 import androidx.compose.foundation.Canvas
+import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.geometry.Offset
@@ -163,7 +164,7 @@ fun DrawScope.dibujarLugar(lugar: ValleyPlace, apagado: Boolean = false) = lienz
 
 /** Paisaje del Valle: cielo, colinas, río, camino y arbolitos. */
 @Composable
-fun FondoValle(modifier: Modifier = Modifier, oscuro: Boolean = false) {
+fun FondoValle(modifier: Modifier = Modifier, oscuro: Boolean = isSystemInDarkTheme()) {
     Canvas(modifier = modifier) {
         val cieloAlto = if (oscuro) Color(0xFF23334A) else Color(0xFFBFE3F5)
         val cieloBajo = if (oscuro) Color(0xFF33465E) else Color(0xFFE9F6DE)
